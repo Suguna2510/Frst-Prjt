@@ -6,18 +6,18 @@ on:
         - main
 
 jobs:
-  run-puthon-script:
-    runs on: ubuntu-latest
+  run-python-script:
+    runs-on: ubuntu-latest
 
-steps:
-  - name: Checkout code
-    uses: actions/checkout@v2
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-  - name: Set up python
-    uses: actions/setup-python@v5
-    with:
-      python-version: '3.10'
+      - name: Set up python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-  - name: Run python script
-    uses: hellowworld.py
+      - name: Run python script
+        run:  helloworld.py
 
