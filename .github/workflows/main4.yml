@@ -16,6 +16,7 @@ jobs:
       - name: Run python script
         run: python Ifelse.py
   deploy:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
