@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: '3.10'
       - name: Run python script
-        run: python Iflese.py
+        run: python Ifelse.py
       - name: Print Deploy
         run: print("Deploy")
         
