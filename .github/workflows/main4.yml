@@ -27,7 +27,8 @@ jobs:
       - name: Run python script
         run: python Ifelse.py
       - name: Print Deploy
-        run: print("Deploy")
+        run: print "Deploy"
+        
         
       
         
