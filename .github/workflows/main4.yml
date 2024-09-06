@@ -26,8 +26,8 @@ jobs:
           python-version: '3.10'
       - name: Run python script
         run: python Ifelse.py
-      - name: Print Deploy
-        run: print "Deploy"
+      - name: Print Hi
+        run: python hi.py
         
         
       
